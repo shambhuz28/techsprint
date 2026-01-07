@@ -88,7 +88,7 @@ npm install
 
 Start the application:
 ```bash
-node public/server.js
+node server.js
 ```
 
 Access the Application
