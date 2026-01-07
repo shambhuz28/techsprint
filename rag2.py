@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer
 
 
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyBEQSUAgE3YEKpVDvOR6-ywskGuzxzWoJQ"
+os.environ["GEMINI_API_KEY"] = "YOUR GEMINI KEY"
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 
@@ -129,7 +129,7 @@ Final Answer:
 
 if __name__ == "__main__":
     print("startedd")
-    directory_path = "/home/storm/techsprint/directory"
+    directory_path = "PATH TO DIRECTORY WHICH HOLDS DATA IN PDFS"
 
     print("\nLoading PDFs...")
     docs = load_pdfs_from_directory(directory_path)
